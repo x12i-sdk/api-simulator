@@ -31,3 +31,16 @@ This is a documentation knowledge SDK. It is installed as a development dependen
 - [Reviewed package source](https://github.com/x12i/api-simulator/tree/48dfd8f1cd7ad51d1aac21a633b1470f0f762efb/packages/api-simulator-docs)
 
 The `package.json` in this repository is private to prevent accidental publication of the example application under an npm package name.
+
+## @x12i/api-simulator runtime example
+
+Transport-agnostic framework for fixed, relative-template, and function-based API simulations.
+
+Dispatch fixed and computed local API responses. This example consumes `@x12i/api-simulator@1.3.0`.
+
+```sh
+npm install --ignore-scripts
+npm run example:api-simulator
+```
+
+Source: [`src/api-simulator-example.mjs`](src/api-simulator-example.mjs). The original documentation-package example remains available through `npm start`. Both examples are checked independently.

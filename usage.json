@@ -13,13 +13,27 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:00:54.764581+00:00",
+    "validatedAt": "2026-10-24T13:34:55.560917+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "cf6c232f16b73d95ee516b59f229213aed75ebeae8719adbad7f2a572ace8c2d",
-    "manifestSha256": "9d711e6abefb79e14014ad962cf39c16be84e3f635956e7dd0bf191c59b28ead"
+    "manifestSha256": "2a43f4380a648e7219eaaf1f9791e93fa7a15d7f9ece41a7eb56cab4b46c308e"
   },
   "npmPackages": [
     "@x12i/api-simulator-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/api-simulator": {
+      "packageVersion": "1.3.0",
+      "title": "Dispatch fixed and computed local API responses",
+      "entrypoint": "src/api-simulator-example.mjs",
+      "command": "npm run example:api-simulator",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "4be52528959aa2ffb784505ffcb850e3f0e1c0285314e82b3ff6b5f4a90eedc7",
+      "manifestSha256": "2a43f4380a648e7219eaaf1f9791e93fa7a15d7f9ece41a7eb56cab4b46c308e",
+      "validatedAt": "2026-10-24T13:34:55.560917+00:00"
+    }
+  }
 }
