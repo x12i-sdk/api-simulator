@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/api-simulator-docs",
+  "packageVersion": "0.1.5",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/api-simulator-docs",
+  "usageRepository": "https://github.com/x12i-sdk/api-simulator",
+  "sourceRepository": "https://github.com/x12i/api-simulator",
+  "sourceCommit": "48dfd8f1cd7ad51d1aac21a633b1470f0f762efb",
+  "sourcePackageDirectory": "packages/api-simulator-docs",
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:00:54.764581+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "cf6c232f16b73d95ee516b59f229213aed75ebeae8719adbad7f2a572ace8c2d",
+    "manifestSha256": "9d711e6abefb79e14014ad962cf39c16be84e3f635956e7dd0bf191c59b28ead"
+  },
+  "npmPackages": [
+    "@x12i/api-simulator-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
